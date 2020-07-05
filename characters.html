@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="overlays.css">
+</head>
+<body>
+<div id="mySidenav" class="sidenav">
+   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+   <b><a href="about.html">About</a>
+   <a href="characters.html">Characters</a>
+   <a href="weapons.html">Weapons</a>
+   <a href="other.html">Other Resources</a></b>
+ </div>
+
+<div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+  <h1>Characters</h1>
+  <div class="grid-container">
+ <div class="grid-item"><img src="chars/OfficerM2.png" onclick="on('officer2')"></img></div>
+ <div class="grid-item"><img src="chars/OfficerM1.png" onclick="on('officer1')"></img></div>
+ <div class="grid-item"><img src="RiseRiseRobot.png"></img></div>
+ <div class="grid-item"><img src="RiseRiseRobot.png"></img></div>
+ <div class="grid-item"><img src="RiseRiseRobot.png"></img></div>
+ <div class="grid-item"><img src="RiseRiseRobot.png"></img></div>
+ <div class="grid-item"><img src="RiseRiseRobot.png"></img></div>
+ <div class="grid-item"><img src="RiseRiseRobot.png"></img></div>
+ <div class="grid-item"><img src="RiseRiseRobot.png"></img></div>
+</div>
+</div>
+
+
+
+<div class="overlay" id="officer2">
+  <div class="overlay-content"> <a href="javascript:void(0)" class="closebtn" onclick="off('officer2')">&times;</a>
+  <div class="card">
+    <h1>Security Officer (M2/∞)</h1>
+  <div class="grid-container">
+    <div class="grid-item">
+      <img src="chars/OfficerM2.png" alt="Security Officer, M2 style" style="width:100%">
+      <a href="#">Download Model</a>
+    </div>
+  <div class="grid-item">
+    <p>
+      This is a free interpretation of the chapter art for Marathon Durandal and Marathon Infinity,
+      portrays an officer with a heavier armor and some extra gadgets that we don't see in game.
+    </p>
+  </div>
+
+  </div>
+  <p style="color:yellow; font-size:18px">
+  Attention! 4K textures ahead, proceed with caution.
+  </p>
+  <div class = "grid-container">
+    <div class = "grid-item"><a href="#">Base Color</a></div>
+    <div class = "grid-item"><a href="#">Normal Map</a></div>
+    <div class = "grid-item"><a href="#">ORM Map</a></div>
+  </div>
+</div> </div>
+</div>
+
+<div class="overlay" id="officer1">
+  <div class="overlay-content"> <a href="javascript:void(0)" class="closebtn" onclick="off('officer1')">&times;</a>
+  <div class="card">
+    <h1>Security Officer (M1/in-game)</h1>
+  <div class="grid-container">
+    <div class="grid-item">
+      <img src="chars/OfficerM1.png" alt="Security Officer, M1 style" style="width:100%">
+      <a href="#">Download Model</a>
+    </div>
+  <div class="grid-item">
+    <p>
+    This model is based on the art from the three games and a recent post in Bungie's twitter, that features
+    the Cyborg, Master Chief and Oni's protagonist in a single drawing.
+    </p>
+  </div>
+
+  </div>
+  <p style="color:yellow; font-size:18px">
+  Attention! 4K textures ahead, proceed with caution.
+  </p>
+  <div class = "grid-container">
+    <div class = "grid-item"><a href="#">Base Color</a></div>
+    <div class = "grid-item"><a href="#">Normal Map</a></div>
+    <div class = "grid-item"><a href="#">ORM Map</a></div>
+  </div>
+</div> </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="push.js">
+</script>
+<script>
+off("character1");
+includeHTML();
+</script>
+</body>
+</html>
