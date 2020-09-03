@@ -1,15 +1,12 @@
-@font-face {
-  font-family: SquarishSansCTRegular;
-  src: url(./fonts/SquarishSansCTRegular.tff);
+.monospace {
+  font-family: "Lucida Console", Courier, monospace;
 }
-@font-face {
-  font-family: Marapfhont;
-  src: url(./fonts/Marapfhont.tff);
-}
+
 body {
   background: #000;
+  background-image: linear-gradient(rgba(0,0,20,0.5), rgba(0,20,15,0.5), rgba(0,0,15,1));
   color: #02a81b;
-  font-family: : Marapfhont;
+  font-family: monospace;
 }
 
 
@@ -21,10 +18,11 @@ body {
   top: 0;
   left: 0;
   background-color: #02a81b;
+  background-image: linear-gradient(rgba(0,255,0,0.5), rgba(0,120,0,0.5), rgba(0,100,0,1));
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
-  font-family: : SquarishSansCTRegular;
+  font-family:  monospace;
 }
 
 .sidenav a {
