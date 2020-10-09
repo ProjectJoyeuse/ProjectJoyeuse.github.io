@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<title>Character index</title>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
@@ -17,107 +18,16 @@
 
 <div id="main">
   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
-  <h1>Characters</h1>
+  <h1>Character Index</h1>
   <div class="grid-container">
- <div class="grid-item"><img src="images/OfficerM2.png" onclick="on('officer2')"></img></div>
- <div class="grid-item"><img src="images/OfficerM1.png" onclick="on('officer1')"></img></div>
- <div class="grid-item"><img src="images/MADD.png"></img></div>
- <div class="grid-item"><img src="images/KR.png"></img></div>
- <div class="grid-item"><img src="images/Jugg.png"></img></div>
- <div class="grid-item"><img src="images/Enforcer.png"></img></div>
- <div class="grid-item"><img src="images/Hulk.png"></img></div>
- <div class="grid-item"><img src="images/VacBob.png"></img></div>
- <div class="grid-item"><img src="images/Drone.png"></img></div>
+ <div class="grid-item"><a href="./uesc_characters.html"><img src="images/Marathon_logo.png"></img></a></div>
+ <div class="grid-item"><a href="./pfhor_characters.html"><img src="images/Pfhor_Insignia.png"></a></img></div>
+ <div class="grid-item"><a href="./spht_characters.html"><img src="images/spht_logo.png"></img></a></div>
+
 </div>
 </div>
 
 
-
-<div class="overlay" id="officer2">
-  <div class="overlay-content"> <a href="javascript:void(0)" class="closebtn" onclick="off('officer2')">&times;</a>
-  <div class="card">
-    <h1>Security Officer (M2/∞)</h1>
-  <div class="grid-container">
-    <div class="grid-item">
-      <img src="images/OfficerM2.png" alt="Security Officer, M2 style" style="width:100%">
-      <a href="#">Download Model</a>
-    </div>
-  <div class="grid-item">
-    <p>
-      This is a free interpretation of the chapter art for Marathon Durandal and Marathon Infinity,
-      portrays an officer with a heavier armor and some extra gadgets that we don't see in game.
-    </p>
-  </div>
-
-  </div>
-  <p style="color:yellow; font-size:18px">
-  Attention! 4K textures ahead, proceed with caution.
-  </p>
-  <div class = "grid-container">
-    <div class = "grid-item"><a href="#">Base Color</a></div>
-    <div class = "grid-item"><a href="#">Normal Map</a></div>
-    <div class = "grid-item"><a href="#">ORM Map</a></div>
-  </div>
-</div> </div>
-</div>
-
-<div class="overlay" id="officer1">
-  <div class="overlay-content"> <a href="javascript:void(0)" class="closebtn" onclick="off('officer1')">&times;</a>
-  <div class="card">
-    <h1>Security Officer (M1/in-game)</h1>
-  <div class="grid-container">
-    <div class="grid-item">
-      <img src="images/OfficerM1.png" alt="Security Officer, M1 style" style="width:100%">
-      <a href="https://github.com/RiseRobotRise/Marathon-Models/raw/master/Characters/M1%20Officer.blend">Download Model</a>
-    </div>
-  <div class="grid-item">
-    <p>
-    This model is based on the art from the three games and a recent post in Bungie's twitter, that features
-    the Cyborg, Master Chief and Oni's protagonist in a single drawing.
-    </p>
-  </div>
-
-  </div>
-  <p style="color:yellow; font-size:18px">
-  Attention! 4K textures ahead, proceed with caution.
-  </p>
-  <!-- Tab links -->
-<div class="tab">
- <button class="tablinks" onclick="openTab(event, 'm1o_set1')">Set 1</button>
- <button class="tablinks" onclick="openTab(event, 'm1o_set2')">Set 2</button>
- <button class="tablinks" onclick="openTab(event, 'm1o_set3')">Set 3</button>
-</div>
-
-<!-- Tab content -->
-<div id="m1o_set1" class="tabcontent">
- <h3>Suit</h3>
- <div class = "grid-container">
-   <div class = "grid-item"><a href="https://media.githubusercontent.com/media/RiseRobotRise/Characters/master/Models/M1%20Officer/Officer_low_boi.001_BaseColor.png">Base Color</a></div>
-   <div class = "grid-item"><a href="https://media.githubusercontent.com/media/RiseRobotRise/Characters/master/Models/M1%20Officer/Officer_low_boi.001_Normal.png">Normal Map</a></div>
-   <div class = "grid-item"><a href="https://media.githubusercontent.com/media/RiseRobotRise/Characters/master/Models/M1%20Officer/Officer_low_boi.001_OcclusionRoughnessMetallic.png">ORM Map</a></div>
- </div>
-</div>
-
-<div id="m1o_set2" class="tabcontent">
- <h3>Armor</h3>
- <div class = "grid-container">
-   <div class = "grid-item"><a href="https://media.githubusercontent.com/media/RiseRobotRise/Characters/master/Models/M1%20Officer/Officer_low_None_BaseColor.png">Base Color</a></div>
-   <div class = "grid-item"><a href="https://media.githubusercontent.com/media/RiseRobotRise/Characters/master/Models/M1%20Officer/Officer_low_None_Normal.png">Normal Map</a></div>
-   <div class = "grid-item"><a href="https://media.githubusercontent.com/media/RiseRobotRise/Characters/master/Models/M1%20Officer/Officer_low_None_OcclusionRoughnessMetallic.png">ORM Map</a></div>
- </div>
-</div>
-
-<div id="m1o_set3" class="tabcontent">
- <h3>Shared</h3>
- <div class = "grid-container">
-   <div class = "grid-item"><a href="https://media.githubusercontent.com/media/RiseRobotRise/Characters/master/Models/Shared/ADDONSLOW_None_BaseColor.png">Base Color</a></div>
-   <div class = "grid-item"><a href="https://media.githubusercontent.com/media/RiseRobotRise/Characters/master/Models/Shared/ADDONSLOW_None_Normal.png">Normal Map</a></div>
-   <div class = "grid-item"><a href="https://media.githubusercontent.com/media/RiseRobotRise/Characters/master/Models/Shared/ADDONSLOW_None_OcclusionRoughnessMetallic.png">ORM Map</a></div>
- </div>
-</div>
-
-</div> </div>
-</div>
 <script src="push.js">
 </script>
 <script>
